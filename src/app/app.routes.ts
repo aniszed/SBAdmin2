@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
 
- import { DashboardRoutes } from './dashboard/dashboard.routes';
- import { Loginroutes } from './login/login.routes'; 
+ import { LayoutRoutes } from './layout/layout.routes';
+ import { LoginRoutes } from './login/login.routes'; 
   import { LoginComponent } from './login/login.component'; 
 
 export const routes: Routes = [
- 	...DashboardRoutes,
-     ...Loginroutes,
+  	...LayoutRoutes,
+    ...LoginRoutes,
    {path : "" , component : LoginComponent}
 
  ];
