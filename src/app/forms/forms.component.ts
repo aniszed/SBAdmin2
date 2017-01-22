@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
 
 @Component({
 	moduleId: module.id.toString(),
-	selector: 'dashboard-cmp',
-	templateUrl: 'dashboard.component.html'
+	selector: 'forms-cmp',
+	templateUrl: 'forms.component.html'
 })
 
-export class DashboardComponent { }
+export class FormsComponent { }
